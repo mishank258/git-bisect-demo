@@ -1,0 +1,58 @@
+[
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpen",
+    "when": "editorTextFocus",
+    "description": "Quickly open files by name"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+    "description": "Switch between recently opened files"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "workbench.action.gotoLine",
+    "description": "Jump to specific line number"
+  },
+  {
+    "key": "alt+click",
+    "command": "editor.action.insertCursorAtPosition",
+    "description": "Insert multiple cursors for simultaneous editing"
+  },
+  {
+    "key": "ctrl+/",
+    "command": "editor.action.commentLine",
+    "description": "Comment or uncomment selected line(s)"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "editor.action.copyLinesDownAction",
+    "description": "Duplicate current line down"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "editor.action.copyLinesUpAction",
+    "description": "Duplicate current line up"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "description": "Select and edit next occurrence of highlighted word"
+  },
+  {
+    "key": "f5",
+    "command": "workbench.action.debug.continue",
+    "description": "Run or continue debugger"
+  },
+  {
+    "key": "f10",
+    "command": "workbench.action.debug.stepOver",
+    "description": "Step over next line during debugging"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "description": "Open or hide the built-in terminal"
+  }
+]
