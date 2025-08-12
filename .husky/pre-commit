@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Find all .md files except those in node_modules
+files=$(git ls-files '*.md' ':!node_modules/**')
+
+if [ -n "$files" ]; then
+  npx markdownlint $files
+  npx cspell $files
+fi
